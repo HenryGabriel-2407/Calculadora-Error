@@ -65,9 +65,9 @@ botao_somar = ctk.CTkButton(janela, width=70, height=70, text="+", font=("segoe 
 botao_somar.grid(row=2, column=3, sticky="w")
 botao_subtrair = ctk.CTkButton(janela, width=70, height=70, text="-", font=("segoe ui", 18), command=partial(imprimir, "-"))
 botao_subtrair.grid(row=3, column=3, sticky="w")
-botao_multiplicar = ctk.CTkButton(janela, width=70, height=70, text="x", font=("segoe ui", 18), command=partial(imprimir, "0"))
+botao_multiplicar = ctk.CTkButton(janela, width=70, height=70, text="x", font=("segoe ui", 18), command=partial(imprimir, "*"))
 botao_multiplicar.grid(row=4, column=3, sticky="w")
-botao_dividir = ctk.CTkButton(janela, width=70, height=70, text="/", font=("segoe ui", 18), command=partial(imprimir, "0"))
+botao_dividir = ctk.CTkButton(janela, width=70, height=70, text="/", font=("segoe ui", 18), command=partial(imprimir, "/"))
 botao_dividir.grid(row=5, column=3, sticky="w")
 
 botao_limpar = ctk.CTkButton(janela, width=70, height=70, text="C", text_color="red", font=("segoe ui", 18), command=limpar).grid(row=5, column=0, sticky="w")
